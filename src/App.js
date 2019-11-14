@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import { AntdApp } from "./AntdApp";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -84,6 +86,8 @@ function Hooks() {
       {name}
       <br />
       {duration}
+      {/*  */}
+      <AntdApp />
     </div>
   );
 }
